@@ -1,0 +1,97 @@
+header {
+        display: flex;
+        height: 40px ;
+        background-color: green;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: "Courier New";
+}
+
+article{
+        display: flex;
+        height: 660px;
+        width: 490px;
+        background-color: blue;
+        color: white;
+        padding: 0px 10px 10px 30px;
+        font-family: Arial;
+}
+
+.content{
+        display: flex;
+        justify-content: center;
+}
+.figure{
+        height: 90px;
+        width: 90px;
+        border: 4px solid;
+        border-bottom-right-radius: 15%;
+        border-top-left-radius: 15%; 
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;  
+        margin-top: -10px;   
+}
+
+p{
+    font-size: 17px;
+}
+
+a{
+    display: flex;
+    color: red;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.value2{
+    color: skyblue;
+    letter-spacing: 0.3em;
+}
+
+.list{
+    word-spacing: 6px;
+}
+ ul{
+    margin-bottom: -10px;
+ }
+
+table{
+    border: solid 1px silver;
+    margin-bottom: 15px;
+}
+
+td{
+    height: 30px;
+    width: 40px;
+    border: solid 1px silver;
+    text-align: center; 
+    vertical-align: bottom;
+}
+
+.block1{
+    display: inline-block;
+    margin-right: 80px;
+}
+.block2{
+    display: inline-block;
+}
+
+img{
+    float: right;
+}
+
+footer {
+        display: flex;
+        height: 40px ;
+        background-color: green;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial;
+}
